@@ -1,26 +1,39 @@
 import {connect} from "react-redux";
 import Users from "./Users";
 import {
-    follow, getUsers, setCurrentPage, toggleFollowingProgress,
-    toggleIsFetching,
+    follow, requestUsers, setCurrentPage,
     unfollow,
 } from "../../redux/users-reducer";
 import React from "react";
 import Preloader from "../common/Preloader/Preloader";
-import {usersAPI} from "../../api/api";
+import {compose} from "redux";
+import {
+    getCurrentPage,
+    getFollowingInProgress,
+    getIsFetching,
+    getPageSize,
+    getTotalUsersCount, getUsersSelec
+} from "../../redux/users-selectors";
+import Paginator from "../common/Paginator/Paginator";
 
 class UsersContainer extends React.Component {
     componentDidMount() {
-        this.props.getUsers(this.props.currentPage,this.props.pageSize);
+        const {currentPage, pageSize} = this.props;
+        this.props.requestUsers(currentPage,pageSize);
     }
 
     onPageChanged = (pageNumber) => {
-        this.props.setCurrentPage(pageNumber);
-        this.props.getUsers(pageNumber,this.props.pageSize);
+        const {pageSize} = this.props;
+        this.props.requestUsers(pageNumber,pageSize);
     }
 
     render() {
         return <>
+            <Paginator currentPage={this.props.currentPage}
+                       onPageChanged={this.onPageChanged}
+                       totalUsersCount={this.props.totalUsersCount}
+                       pageSize={this.props.pageSize}
+            />
             {this.props.isFetching ? <Preloader/> : <Users totalUsersCount={this.props.totalUsersCount}
                                                            pageSize={this.props.pageSize}
                                                            currentPage={this.props.currentPage}
@@ -28,10 +41,7 @@ class UsersContainer extends React.Component {
                                                            users={this.props.users}
                                                            follow={this.props.follow}
                                                            unfollow={this.props.unfollow}
-                                                           toggleFollowingProgress={this.props.toggleFollowingProgress}
-                                                           followingInProgress={this.props.followingInProgress}
-
-            />}
+                                                           followingInProgress={this.props.followingInProgress} />}
         </>
     }
 
@@ -39,12 +49,12 @@ class UsersContainer extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        users: state.usersPage.users,
-        currentPage: state.usersPage.currentPage,
-        pageSize: state.usersPage.pageSize,
-        totalUsersCount: state.usersPage.totalUsersCount,
-        isFetching: state.usersPage.isFetching,
-        followingInProgress: state.usersPage.followingInProgress
+        users:getUsersSelec(state) ,
+        currentPage: getCurrentPage(state),
+        pageSize: getPageSize(state),
+        totalUsersCount: getTotalUsersCount(state),
+        isFetching: getIsFetching(state),
+        followingInProgress: getFollowingInProgress(state),
     }
 }
 
@@ -70,4 +80,14 @@ const mapDispatchToProps = (dispatch) => {
 }
 */
 
-export default connect(mapStateToProps, { follow, unfollow,setCurrentPage, toggleIsFetching, toggleFollowingProgress,getUsers})(UsersContainer)
+
+/*
+let AuthRedirectComponent = withAuthRedirect(UsersContainer)
+*/
+
+
+export default compose (
+    connect(mapStateToProps,
+        { follow, unfollow,setCurrentPage, requestUsers}),
+    )
+(UsersContainer)

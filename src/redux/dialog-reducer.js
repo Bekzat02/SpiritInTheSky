@@ -24,37 +24,37 @@ const dialogReducer = (state=initialState, action) => {
         case SEND_MESSAGE: {
             const copyState={...state};
             copyState.messages=[...state.messages];
-            let newMessage = state.defaultMessage;
             copyState.defaultMessage = '';
             copyState.messages.push({
                 id: 8,
-                message: newMessage
+                message: action.message
             });
             return copyState;
         }
 
-        case UPDATE_NEW_MESSAGE_BODY: {
+        /*case UPDATE_NEW_MESSAGE_BODY: {
             const copyState={...state};
             copyState.defaultMessage = action.newMessage;
             return copyState;
-        }
+        }*/
 
         default:
             return state;
     }
 
 }
-export let sendMessageCreator = () => {
+export let sendMessageCreator = (message) => {
     return {
-        type: SEND_MESSAGE
+        type: SEND_MESSAGE,
+        message
     }
 }
 
 
-export let updateNewMessageActionCreator = (message) => {
+/*export let updateNewMessageActionCreator = (message) => {
     return {
         type: UPDATE_NEW_MESSAGE_BODY,
         newMessage: message
     }
-}
+}*/
 export default dialogReducer;
