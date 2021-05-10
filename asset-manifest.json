@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css",
-    "main.js": "/SpiritInTheSky/static/js/main.7f8b1626.chunk.js",
-    "main.js.map": "/SpiritInTheSky/static/js/main.7f8b1626.chunk.js.map",
+    "main.js": "/SpiritInTheSky/static/js/main.470034ec.chunk.js",
+    "main.js.map": "/SpiritInTheSky/static/js/main.470034ec.chunk.js.map",
     "runtime-main.js": "/SpiritInTheSky/static/js/runtime-main.d38b939d.js",
     "runtime-main.js.map": "/SpiritInTheSky/static/js/runtime-main.d38b939d.js.map",
-    "static/js/2.10555f89.chunk.js": "/SpiritInTheSky/static/js/2.10555f89.chunk.js",
-    "static/js/2.10555f89.chunk.js.map": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.map",
+    "static/js/2.ae289e20.chunk.js": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js",
+    "static/js/2.ae289e20.chunk.js.map": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js.map",
     "index.html": "/SpiritInTheSky/index.html",
-    "precache-manifest.166ea3c60eeddcffba0c93f6eb2f8576.js": "/SpiritInTheSky/precache-manifest.166ea3c60eeddcffba0c93f6eb2f8576.js",
+    "precache-manifest.1159c86051ef01e0985ac965cf40304e.js": "/SpiritInTheSky/precache-manifest.1159c86051ef01e0985ac965cf40304e.js",
     "service-worker.js": "/SpiritInTheSky/service-worker.js",
     "static/css/main.9a98dccc.chunk.css.map": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css.map",
-    "static/js/2.10555f89.chunk.js.LICENSE.txt": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.LICENSE.txt",
+    "static/js/2.ae289e20.chunk.js.LICENSE.txt": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js.LICENSE.txt",
     "static/media/preloader.svg": "/SpiritInTheSky/static/media/preloader.6e7c9db7.svg",
     "static/media/user.png": "/SpiritInTheSky/static/media/user.8b1dbb1f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d38b939d.js",
-    "static/js/2.10555f89.chunk.js",
+    "static/js/2.ae289e20.chunk.js",
     "static/css/main.9a98dccc.chunk.css",
-    "static/js/main.7f8b1626.chunk.js"
+    "static/js/main.470034ec.chunk.js"
   ]
 }
