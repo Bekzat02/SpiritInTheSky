@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css",
-    "main.js": "/SpiritInTheSky/static/js/main.1ba8f73e.chunk.js",
-    "main.js.map": "/SpiritInTheSky/static/js/main.1ba8f73e.chunk.js.map",
+    "main.js": "/SpiritInTheSky/static/js/main.7f8b1626.chunk.js",
+    "main.js.map": "/SpiritInTheSky/static/js/main.7f8b1626.chunk.js.map",
     "runtime-main.js": "/SpiritInTheSky/static/js/runtime-main.d38b939d.js",
     "runtime-main.js.map": "/SpiritInTheSky/static/js/runtime-main.d38b939d.js.map",
     "static/js/2.10555f89.chunk.js": "/SpiritInTheSky/static/js/2.10555f89.chunk.js",
     "static/js/2.10555f89.chunk.js.map": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.map",
     "index.html": "/SpiritInTheSky/index.html",
-    "precache-manifest.27a8730e4cc9c38c538f7eb99a1f45e9.js": "/SpiritInTheSky/precache-manifest.27a8730e4cc9c38c538f7eb99a1f45e9.js",
+    "precache-manifest.166ea3c60eeddcffba0c93f6eb2f8576.js": "/SpiritInTheSky/precache-manifest.166ea3c60eeddcffba0c93f6eb2f8576.js",
     "service-worker.js": "/SpiritInTheSky/service-worker.js",
     "static/css/main.9a98dccc.chunk.css.map": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css.map",
     "static/js/2.10555f89.chunk.js.LICENSE.txt": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.d38b939d.js",
     "static/js/2.10555f89.chunk.js",
     "static/css/main.9a98dccc.chunk.css",
-    "static/js/main.1ba8f73e.chunk.js"
+    "static/js/main.7f8b1626.chunk.js"
   ]
 }

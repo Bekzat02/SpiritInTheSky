@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SpiritInTheSky/precache-manifest.27a8730e4cc9c38c538f7eb99a1f45e9.js"
+  "/SpiritInTheSky/precache-manifest.166ea3c60eeddcffba0c93f6eb2f8576.js"
 );
 
 self.addEventListener('message', (event) => {

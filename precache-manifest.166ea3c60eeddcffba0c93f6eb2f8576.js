@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1501eca51aac457db489cf114ffa6617",
+    "revision": "45b876b7d6ec36166e0b519fc2ec2445",
     "url": "/SpiritInTheSky/index.html"
   },
   {
-    "revision": "8e7f1254890100322aac",
+    "revision": "51ec9a673fbd69dd8442",
     "url": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e7f1254890100322aac",
-    "url": "/SpiritInTheSky/static/js/main.1ba8f73e.chunk.js"
+    "revision": "51ec9a673fbd69dd8442",
+    "url": "/SpiritInTheSky/static/js/main.7f8b1626.chunk.js"
   },
   {
     "revision": "a91e9f97953f6cf27829",
