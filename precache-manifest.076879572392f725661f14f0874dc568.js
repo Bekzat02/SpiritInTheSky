@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc63ba08b6a8664e310a7644b143c685",
+    "revision": "9ee86c178479d9c1974b5f4b16f99431",
     "url": "/SpiritInTheSky/index.html"
   },
   {
-    "revision": "d5523521f4aea628484a",
+    "revision": "5a70e6b38cc22558e316",
     "url": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css"
   },
   {
-    "revision": "e5d7a29a2ac35d01fc07",
-    "url": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js"
+    "revision": "c38253257a854eb78663",
+    "url": "/SpiritInTheSky/static/js/2.10555f89.chunk.js"
   },
   {
     "revision": "774152ec3dfb5dadc6880f2e7f79e400",
-    "url": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js.LICENSE.txt"
+    "url": "/SpiritInTheSky/static/js/2.10555f89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5523521f4aea628484a",
-    "url": "/SpiritInTheSky/static/js/main.a7cb6bd2.chunk.js"
+    "revision": "5a70e6b38cc22558e316",
+    "url": "/SpiritInTheSky/static/js/main.01bbb760.chunk.js"
   },
   {
     "revision": "a91e9f97953f6cf27829",
