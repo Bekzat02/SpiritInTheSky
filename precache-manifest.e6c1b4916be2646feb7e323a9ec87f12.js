@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc63ba08b6a8664e310a7644b143c685",
+    "revision": "4b8f2410eb216f1f0a5970b82a91c497",
     "url": "/SpiritInTheSky/index.html"
   },
   {
-    "revision": "d5523521f4aea628484a",
-    "url": "/SpiritInTheSky/static/css/main.9a98dccc.chunk.css"
+    "revision": "afd6fc8a7253603e24e6",
+    "url": "/SpiritInTheSky/static/css/main.124cb044.chunk.css"
   },
   {
-    "revision": "e5d7a29a2ac35d01fc07",
-    "url": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js"
+    "revision": "35e78092c4b7205670fe",
+    "url": "/SpiritInTheSky/static/js/2.a74e12dc.chunk.js"
   },
   {
     "revision": "774152ec3dfb5dadc6880f2e7f79e400",
-    "url": "/SpiritInTheSky/static/js/2.ae289e20.chunk.js.LICENSE.txt"
+    "url": "/SpiritInTheSky/static/js/2.a74e12dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5523521f4aea628484a",
-    "url": "/SpiritInTheSky/static/js/main.a7cb6bd2.chunk.js"
+    "revision": "afd6fc8a7253603e24e6",
+    "url": "/SpiritInTheSky/static/js/main.29a93c83.chunk.js"
   },
   {
     "revision": "a91e9f97953f6cf27829",
